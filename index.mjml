@@ -1,0 +1,73 @@
+<mjml>
+    <mj-head>
+        <mj-title>Transactional Email</mj-title>
+        <mj-font name="Arial" href="https://fonts.googleapis.com/css?family=Arial" />
+        <mj-attributes>
+            <mj-all font-family="Arial, sans-serif" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#f4f4f4">
+        <!-- Header Section -->
+        <mj-section background-color="#ffffff" padding="20px 0">
+            <mj-column>
+                <mj-image width="200px" src="https://channelx.world/wp-content/uploads/2022/11/Amazon-Canada-1.jpg" alt="Company Logo" />
+            </mj-column>
+        </mj-section>
+
+        <!-- Main Content Section -->
+        <mj-section background-color="#ffffff" padding="20px">
+            <mj-column>
+                <mj-text font-size="24px" color="#333333" align="center">
+                    Order Confirmation
+                </mj-text>
+                <mj-text font-size="16px" color="#333333" line-height="24px">
+                    Dear Customer,
+                    <br /><br />
+                    Thank you for your order. We're pleased to confirm that we've received your order and it's being
+                    processed.
+                </mj-text>
+                <mj-button background-color="#2e58ff" color="white" href="#">
+                    Track Your Order
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <!-- Order Details Section -->
+        <mj-section background-color="#ffffff" padding="20px">
+            <mj-column>
+                <mj-text font-size="18px" font-weight="bold" color="#333333">
+                    Order Details
+                </mj-text>
+                <mj-table>
+                    <tr style="border-bottom: 1px solid #ecedee;">
+                        <th style="padding: 15px 0;">Item</th>
+                        <th style="padding: 15px 0;">Qty</th>
+                        <th style="padding: 15px 0;">Price</th>
+                    </tr>
+                    <tr>
+                        <td style="padding: 15px 0;">Product Name</td>
+                        <td style="padding: 15px 0;">1</td>
+                        <td style="padding: 15px 0;">$99.99</td>
+                    </tr>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+
+        <!-- Footer Section -->
+        <mj-section background-color="#333333" padding="20px">
+            <mj-column>
+                <mj-text color="#ffffff" align="center" font-size="14px">
+                    Need help? Contact our support team
+                </mj-text>
+                <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+                    <mj-social-element name="facebook" href="#" />
+                    <mj-social-element name="twitter" href="#" />
+                    <mj-social-element name="instagram" href="#" />
+                </mj-social>
+                <mj-text color="#ffffff" align="center" font-size="12px">
+                    © 2024 Your Company. All rights reserved.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
